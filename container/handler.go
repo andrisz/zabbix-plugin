@@ -17,7 +17,7 @@
 ** Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 **/
 
-package plugin
+package container
 
 import (
 	"encoding/json"
@@ -30,6 +30,7 @@ import (
 	"syscall"
 	"time"
 	
+	"github.com/andrisz/zabbix-plugin"
 	"github.com/andrisz/zabbix-plugin/comms"
 )
 
